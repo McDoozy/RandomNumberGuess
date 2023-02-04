@@ -63,4 +63,3 @@ game.setElements();
 game.setText();
 game.setId();
 game.setType();
-game.RNG();

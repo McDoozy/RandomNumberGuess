@@ -10,9 +10,9 @@ let submitButton = document.createElement("input");
 root.appendChild(elements);
 elements.append(h1, p, label, guessField, submitButton);
 
-h1.innerHTML = "Number Guessing Game"; 
-p.innerHTML = "Pick a number between 1-10.";
-label.innerHTML = "Enter a guess: ";
+h1.innerText = "Number Guessing Game"; 
+p.innerText = "Pick a number between 1-10.";
+label.innerText = "Enter a guess: ";
 submitButton.type = "submit";
 elements.id = "elements"
 submitButton.id = "submitButton";
@@ -40,7 +40,7 @@ submitButton.onclick = () => {
     else{
         alert("Too large!");
         guessField.value = '';
-    }
+    };
 };
 
 //"Enter" keystroke acts as a submit button
